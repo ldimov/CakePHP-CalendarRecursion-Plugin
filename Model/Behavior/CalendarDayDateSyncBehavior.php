@@ -61,8 +61,8 @@ class CalendarDayDateSyncBehavior extends ModelBehavior
                 //if(!empty($associatedEntity)){
                     //get the names of the columns the hold the start and end dates in associeated model (this only 
                     //works if the associted model actsAs this behavior with the propper settings) 
-                    $start = $associatedEntityModel->actsAs['CalendarDayDateSync']['start'];
-                    $end = $associatedEntityModel->actsAs['CalendarDayDateSync']['end'];
+                    $start = $associatedEntityModel->actsAs['CalendarRecursion.CalendarDayDateSync']['start'];
+                    $end = $associatedEntityModel->actsAs['CalendarRecursion.CalendarDayDateSync']['end'];
                     $modelAlias = $model->data[$model->alias]['model'];
 
                     //check if start_time is present in the data array and if it's corresponding value in the associated 

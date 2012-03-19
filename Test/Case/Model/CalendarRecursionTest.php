@@ -18,9 +18,6 @@
 /**
  * Model used in tests for Uuid.
  *
- * @author      Billy Gunn
- * @package     app
- * @subpackage  app.tests.cases.behaviors
  */
 class CalendarInstance extends CakeTestModel {
         var $name = 'CalendarInstance';
